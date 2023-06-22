@@ -1,0 +1,154 @@
+
+/* GENERAL ELEMENT
+////////////////////////// */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  margin-top: 100px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color:#3f455f;
+  font-weight: 800;
+  background: #f3f5fc;
+  background: linear-gradient(to right, rgb(84, 55, 139), rgb(44, 176, 105));
+}
+
+h2{
+  font-weight: 500;
+}
+
+.wrapper {
+  background: white;
+  border-radius: 9px;
+  border: 1px solid #e7ecfb;
+  box-shadow: 0 0 30px rgba(211, 220, 248, .3);
+  padding: 50px;
+  text-align:center;
+  min-width: 600px;
+  margin: 10px;
+}
+
+
+/* TITLE CARD
+////////////////////// */
+
+#title-card {
+  padding: 50px;
+  text-align:center;
+  min-width: 400px;
+  margin: 10px;
+}
+
+#title-card > h1{
+  color: white;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+#title-card > p{
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 5px;
+}
+
+.red{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  position:relative;
+  top: -0px;
+}
+
+
+/* LEVEL SELECTION CARD
+///////////////////////////////// */
+#level-card > h2{
+/* text-transform: uppercase; */
+font-size: 35px;
+}
+
+#level-selector{
+  min-width: 250px;
+  height: 45px;
+  margin-right: 15px;
+  padding-left:10px;
+  font-size: 18px;
+  font-weight: 100;
+  border-radius: 10px;
+}
+
+
+#start-button{
+  min-width: 250px;
+  height: 45px;
+  font-size: 18px;
+  border-color: #ffffff;
+  border-radius: 10px;
+}
+
+
+/* WORD LIST CARD
+///////////////////////// */
+
+#list-card{
+  padding-top: 10px;
+  padding-bottom:10px;
+
+}
+
+#list-card > ul > li{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+li{
+  padding: 15px;
+  margin: 10px;
+  margin-left: -30px;
+  list-style-type: none;
+  border-radius: 9px;
+  border: 1px solid rgb(229, 229, 229);
+  
+}
+
+li > button{
+  color: white;
+  padding-top: 5px;
+  margin-left: 20px;
+  font-size: 18px;;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(193, 193, 193);
+  border-radius:100%;
+  border:none;
+}
+
+li.selected{
+  padding: 15px;
+  margin: 10px;
+  margin-left: -30px;
+  list-style-type: none;
+  border-radius: 9px;
+  border: 1px solid rgb(229, 229, 229);
+  background-color: rgb(233, 255, 233);
+}
+
+
+.hidden{
+  display: none;
+}
+
+
+
