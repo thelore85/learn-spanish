@@ -1,9 +1,7 @@
 
 /* GENERAL ELEMENT
 ////////////////////////// */
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 body {
@@ -24,18 +22,15 @@ body {
   background: linear-gradient(to right, rgb(84, 55, 139), rgb(44, 176, 105));
 }
 
-h2{
-
-}
-
 .wrapper {
   background: white;
   border-radius: 9px;
   border: 1px solid #e7ecfb;
   box-shadow: 0 0 30px rgba(211, 220, 248, .3);
-  padding: 20px;
+  padding: 10px;
   text-align:center;
-  min-width: 350px;
+  max-width: 650px;
+  min-width: 360px;
   margin: 10px;
 }
 
@@ -52,7 +47,7 @@ h2{
 
 #title-card > h1{
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
   margin: 0px;
 }
@@ -60,7 +55,7 @@ h2{
 #title-card > p{
   color: white;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 300;
   margin: 5px;
 }
@@ -71,12 +66,12 @@ h2{
 #level-card > h2{
 text-transform:capitalize;
 font-weight: 500;
-font-size: 25px;
+font-size: 20px;
 }
 
 #level-selector{
   margin: 10px;
-  min-width: 150px;
+  width:120px;
   height: 45px;
   padding-left:10px;
   padding-right:10px;
@@ -88,10 +83,12 @@ font-size: 25px;
 
 #start-button{
   font-size: 15px;
+  font-weight:100;
   border-color: #ffffff;
   border-radius: 10px;
   margin: 10px;
-  min-width: 150px;
+  width: 120px;
+  min-width: 120px;
   height: 45px;
 }
 
