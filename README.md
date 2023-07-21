@@ -24,10 +24,6 @@ We encourage contributions from the community to enhance the application further
 
 Vocabulary Project is licensed under the MIT License. This means you can freely use, modify, and distribute the code. However, we hold no liability for any misuse of the software. Please see the LICENSE.md file for more details.
 
-## Contact
-
-If you have any questions or suggestions about the Vocabulary Project, feel free to contact us at contact@vocabularyproject.com or open an issue on [GitHub](https://github.com/your-username/vocabulary-project/issues).
-
 Happy learning!
 
 Piqus 2023 all right reserved
